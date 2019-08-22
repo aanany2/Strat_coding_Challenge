@@ -6,3 +6,5 @@ switcher_dict = {
         '5':  'socks',
         '6':  'leave'
 }
+
+# Use switcher_dict with switch method in main
