@@ -57,6 +57,7 @@ class Person():
 
     # the if elif should be replaced with a pseudo switch() method
     # https://jaxenter.com/implement-switch-case-statement-python-138315.html
+    # Might belong in config.py class with switcher_dict
     def take_action(self, key):
         if key == "1":
             garment = Hat()
