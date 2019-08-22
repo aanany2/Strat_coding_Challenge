@@ -52,31 +52,21 @@ class Leave(Garments):
         return result
 
 class Person():
+    #TODO: Put this in config file
+    options = {'1': Hat,
+               '2': Pants,
+               '3': Shirt,
+               '4': Shoes,
+               '5': Socks,
+               '6': Leave
+               }
+
     def __init__(self):
         self.history = []
 
     def take_action(self, key):
-        if key == "1":
-            garment = Hat()
 
-        elif key == "2":
-            garment = Pants()
-
-
-        elif key == "3":
-            garment = Shirt()
-
-
-        elif key == "4":
-            garment = Shoes()
-
-
-        elif key == "5":
-            garment = Socks()
-
-
-        elif key == "6":
-            garment = Leave()
+        garment = self.options[key]()
 
         if garment.rule(self):
             self.history.append(garment.get_value())
@@ -84,7 +74,8 @@ class Person():
 
 
 if __name__ == "__main__":
-    input = "5 2 3 4"
+    # input = "5 2 3 4 6"
+    input = "5 1"
     print (input)
     p = Person()
     items = input.split(" ")
