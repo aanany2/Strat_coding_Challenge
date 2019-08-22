@@ -1,6 +1,6 @@
 **Getting Dressed**
 
-The project is created to help user to dress up before leaving.
+The project is created to help users to dress up before leaving.
 
 **Development setup**
 
@@ -8,11 +8,11 @@ Project is compatible with Python3.7 or higher
 
 **Input**
 
-Input: Space seperated list of numbers(which indicate article of clothing)
+Input: Space seperated list of numbers(which indicate articles of clothing)
 
 **Dependencies**
 
-There are 3rd party library that needs to installed at its current state.
+There are no 3rd party libraries that need to installed at its current state.
 
 **Contributing**
 1. Fork it (https://github.com/<>/<>)
