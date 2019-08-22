@@ -8,3 +8,4 @@ switcher_dict = {
 }
 
 # Use switcher_dict with switch method in main
+# Make into a class, use a better name than 'config' which describes the use
