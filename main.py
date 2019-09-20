@@ -87,7 +87,8 @@ class Person():
 
 
 if __name__ == "__main__":
-    input = "5 2 3 4"
+    input = "5 2 3 4 6"
+    # input = "5 1"
     print (input)
     p = Person()
     items = input.split(" ")
